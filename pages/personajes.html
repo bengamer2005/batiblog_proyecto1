@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Batman - Personajes y Grupos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lista_personajes.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Blog de Batman</h1>
+</header>
+
+<nav>
+    <a href="indexhtml">Datos Interesantes</a>
+    <a href="personajes.html">Personajes y Grupos</a>
+    <a href="comics.html">Comics</a>
+    <a href="peliculas.html">Películas y Series</a>
+    <a href="videojuegos.html">VideoJuegos</a>
+</nav>
+
+<section>
+    <h2>Personajes y Grupos</h2>
+    <p><strong>Aliados:</strong> Alfred Pennyworth, Robin, Batgirl</p>
+    <p><strong>Villanos:</strong> Joker, El Pingüino, Dos Caras, Enigma</p>
+    <p><strong>Grupos:</strong> Liga de la Justicia, Batfamily</p>
+
+    <label for="opciones">Selecciona una opción:</label>
+    <select id="opciones" name="opciones" onchange="mostrarInformacion()">
+        <option value="" disabled selected>Elige una opción</option>
+        <option value="info1">Opción 1 - Aliados</option>
+        <option value="info2">Opción 2 - Villanos</option>
+        <option value="info3">Opción 3 - Grupos</option>
+    </select>
+
+    <p id="informacion"></p>
+
+    <input type="text" id="searchInput" placeholder="Search..." />
+    <table id="tabla" border="1"></table>
+
+    <script src="tabla_personaje.js"></script>
+</section>
+
+<footer>
+    <p>© 2024 Blog de Batman. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

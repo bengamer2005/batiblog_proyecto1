@@ -1,0 +1,266 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+
+    transform: translate(0px)
+}
+
+nav a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+
+    transition-duration: 1s;
+    transform: translate(0px)
+    
+}
+
+nav a:hover {
+    background-color: #e0c7254b;
+    transition-property: background_color;
+    transition-duration: 1s;
+    transform: translate(0px, 10px)
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: -1;
+    width: 100%;
+}
+
+.apariciones {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+  
+.Datos {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem;
+    width: 25%;
+}
+  
+.Datos img {
+    width: 100%;
+    height: auto;
+}
+
+.Datos2 {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem;
+    width: 24.2%;
+}
+  
+.Datos2 img {
+    width: 100%;
+    height: auto;
+}
+
+.origen {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem;
+    width: 40%;
+}
+  
+.origen img {
+    width: 100%;
+    height: auto;
+}
+
+.comic_display {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.comics {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem;
+    width: 20%;
+}
+  
+.comics img {
+    width: 100%;
+    height: auto;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.movie {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem;
+    width: 22%;
+}
+  
+.movie img {
+    width: 100%;
+    height: auto;
+}
+
+.videojuegolista {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.juego {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem;
+    width: 22%;
+}
+  
+.juego img {
+    width: 100%;
+    height: auto;
+}
+
+header .logo img h1{
+    display: flex;
+    align-items: left;
+}
+
+header .logo img {
+    width: 10%; 
+    height: auto; 
+    align-items: left;
+}
+
+header h1{
+    align-items: center;
+}
+
+header {
+    background-image: url('img/batman_fondo.png'); 
+    background-size: cover; 
+    background-position: center;
+    height: 100;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    color: white; 
+}
+
+.carrusel {
+    max-width: 1300px;
+    margin: auto;
+    overflow: hidden;
+}
+  
+.carrusel-cuerpo {
+    display: flex;
+    width: auto;
+    transition: transform 0.5s ease-in-out;
+}
+  
+.carrusel-elemento {
+    width: 100%;
+    flex-shrink: 0;
+    position: relative;
+}
+  
+.carrusel-elemento img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+  
+.carrusel-descripcion {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(21, 20, 20, 0.5);
+    color: white;
+}
+  
+.prev, .next {
+    position: absolute;
+    top: 250%;
+
+    background-color: rgba(21, 20, 20, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+  
+.prev {
+    left: 10px;
+}
+  
+.next {
+    right: 10px;
+}
+  
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+  
+#searchInput {
+    padding: 10px;
+    width: 98.5%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+tr{
+    background-color: #f4f4f4;
+    transition: background-color 1s, transform 1s;
+}
+
+tr:hover {
+    background-color: #f6f060;
+    transition: background-color 1s, transform 1s;
+}

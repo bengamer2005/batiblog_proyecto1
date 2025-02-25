@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Batman - VideoJuegos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lista_videojuego.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Blog de Batman</h1>
+</header>
+
+<nav>
+    <a href="index.html">Datos Interesantes</a>
+    <a href="personajes.html">Personajes y Grupos</a>
+    <a href="comics.html">Comics</a>
+    <a href="peliculas.html">Películas y Series</a>
+    <a href="videojuegos.html">VideoJuegos</a>
+</nav>
+
+<section>
+    <h2>VideoJuegos</h2> 
+    <p>Batman a tenido varias cantidades de juegos durante el pasar de los años, entre los mas destacadas sagas se encuetra la saga Arkham y la saga LEGO Batman</p>
+
+    <section>
+        <h2>VideoJuegos</h2>
+    
+        <label for="opciones">Selecciona una saga:</label>
+        <select id="opciones" name="opciones" onchange="mostrarInformacion()">
+            <option value="" disabled selected>Elige una saga</option>
+            <option value="info1">Opción 1 - Arkham saga</option>
+            <option value="info2">Opción 2 - LEGO saga</option>
+            <option value="info3">Opción 3 - otros</option>
+        </select>
+    
+        <p id="informacion"></p>
+    
+    </section>
+</section>
+
+<footer>
+    <p>© 2024 Blog de Batman. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
